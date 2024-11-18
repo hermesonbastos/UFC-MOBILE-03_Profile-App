@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="149dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Foto de perfil"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hermeson"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olá, sou desenvolvedor FullStack\n e graduando em Sistemas de Informção pela UFC."
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:paddingTop="4dp"/>
+
+    <TextView
+        android:id="@+id/currentJobText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emprego Atual: Desenvolvedor Android"
+        android:textSize="16sp"
+        android:paddingTop="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/experienceLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experiências Anteriores"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+    </LinearLayout>
+</LinearLayout>
